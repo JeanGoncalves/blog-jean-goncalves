@@ -7,33 +7,32 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
-    subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    copyright: '© All rights reserved.',
+    title: 'Blog by Jean Gonçalves',
+    subtitle: 'Software Engineer Sr @ PagSeguro PagBank',
+    copyright: '2020 © All rights reserved.',
     disqusShortname: '',
     menu: [
       {
-        label: 'Articles',
+        label: 'Artigos',
         path: '/',
       },
       {
-        label: 'About me',
+        label: 'Sobre mim',
         path: '/about/',
       },
       {
-        label: 'Contact me',
+        label: 'Contato',
         path: '/contact/',
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
+      name: 'Jean Gonçalves',
+      email: 'jeanfpgoncalves@live.com',
+      telegram: '',
+      twitter: '',
+      github: 'JeanGoncalves',
+      rss: '',
+      vk: '',
     },
   },
   plugins: [

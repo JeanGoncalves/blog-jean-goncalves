@@ -1,16 +1,23 @@
-<!-- ---
-title: Upgraded to Gatsby v2
-date: "2018-10-18T16:51:00.000Z"
+---
+title: Em Construção
+date: "2020-10-07T09:34:00.000Z"
 layout: post
 draft: false
-path: "/posts/upgraded-to-gatsby-v2/"
-category: "Gatsby"
+path: "/posts/em-construcao/"
+category: "Pessoal"
 tags:
-  - "Gatsby"
-  - "Web Development"
-description: "This starter has been forked and upgraded to Gatsby v2"
+  - "Pessoal"
+description: "Post inicial."
 ---
 
+---
+
+Esse blog está em construção...
+
+Aguarde.
+
+
+<!-- 
 This is a Gatsby v2 compatible version of the
 [lumen](https://github.com/alxshelepenok/gatsby-starter-lumen) starter, started
 by the folks at [Gatsby Central](https://www.gatsbycentral.com/).
@@ -30,4 +37,5 @@ If you **do decide to upgrade**, these articles will help you do that.
 
 Finally, here's a cheat sheet we prepared to help during the upgrade:
 
-* [Gatsby v2 refactoring cheat sheet](https://www.gatsbycentral.com/gatsby-v2-refactoring-cheat-sheet) -->
+* [Gatsby v2 refactoring cheat sheet](https://www.gatsbycentral.com/gatsby-v2-refactoring-cheat-sheet)
+-->
