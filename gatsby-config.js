@@ -1,14 +1,15 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://jeangoncalves.github.io'
 
 module.exports = {
+  pathPrefix: "/",
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by Jean Gonçalves',
-    subtitle: 'Software Engineer Sr @ PagSeguro PagBank',
+    title: 'Jean Gonçalves',
+    subtitle: 'Software Engineer Sr & Tech Lead @ PagSeguro PagBank',
     copyright: '2020 © All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -18,11 +19,15 @@ module.exports = {
       },
       {
         label: 'Sobre mim',
-        path: '/about/',
+        path: '/sobre/',
+      },
+      {
+        label: 'Categorias',
+        path: '/categorias/',
       },
       {
         label: 'Contato',
-        path: '/contact/',
+        path: '/contato/',
       },
     ],
     author: {

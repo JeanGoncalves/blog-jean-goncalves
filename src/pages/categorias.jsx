@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import Sidebar from '../components/Sidebar'
 
-class CategoriesRoute extends React.Component {
+class CategoriasRoute extends React.Component {
   render() {
     const { title } = this.props.data.site.siteMetadata
     const categories = this.props.data.allMarkdownRemark.group
@@ -13,12 +13,12 @@ class CategoriesRoute extends React.Component {
     return (
       <Layout>
         <div>
-          <Helmet title={`All Categories - ${title}`} />
+          <Helmet title={`Todas Categorias - ${title}`} />
           <Sidebar {...this.props} />
           <div className="content">
             <div className="content__inner">
               <div className="page">
-                <h1 className="page__title">Categories</h1>
+                <h1 className="page__title">Categorias</h1>
                 <div className="page__body">
                   <div className="categories">
                     <ul className="categories__list">
@@ -49,7 +49,7 @@ class CategoriesRoute extends React.Component {
   }
 }
 
-export default CategoriesRoute
+export default CategoriasRoute
 
 export const pageQuery = graphql`
   query CategoryesQuery {

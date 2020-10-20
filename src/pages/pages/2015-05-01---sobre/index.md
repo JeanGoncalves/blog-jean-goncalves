@@ -1,7 +1,7 @@
 ---
 title: "Sobre mim"
 layout: page
-path: "/about"
+path: "/sobre"
 ---
 
 Em construção...

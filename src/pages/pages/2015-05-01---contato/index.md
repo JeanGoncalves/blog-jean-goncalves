@@ -1,7 +1,7 @@
 ---
 title: "Contato"
 layout: page
-path: "/contact"
+path: "/contato"
 ---
 
 Em Construção..
