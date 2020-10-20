@@ -13,7 +13,7 @@ class PostTemplateDetails extends React.Component {
     const homeBlock = (
       <div>
         <Link className="post-single__home-button" to="/">
-          All Articles
+          Artigos
         </Link>
       </div>
     )
@@ -55,7 +55,7 @@ class PostTemplateDetails extends React.Component {
             />
             <div className="post-single__date">
               <em>
-                Published {moment(post.frontmatter.date).format('D MMM YYYY')}
+                Publicado em {moment(post.frontmatter.date).format('D MMM YYYY')}
               </em>
             </div>
           </div>
@@ -65,11 +65,11 @@ class PostTemplateDetails extends React.Component {
             <p className="post-single__footer-text">
               {subtitle}
               <a
-                href={`https://twitter.com/${author.twitter}`}
+                href={`https://www.linkedin.com/in/${author.linkedin}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <br /> <strong>{author.name}</strong> on Twitter
+                <br /> <strong>{author.name}</strong> on Linkedin
               </a>
             </p>
             {commentsBlock}

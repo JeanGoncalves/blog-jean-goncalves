@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import Sidebar from '../components/Sidebar'
 
-class CategoriasRoute extends React.Component {
+class CategoriesRoute extends React.Component {
   render() {
     const { title } = this.props.data.site.siteMetadata
     const categories = this.props.data.allMarkdownRemark.group
@@ -49,7 +49,7 @@ class CategoriasRoute extends React.Component {
   }
 }
 
-export default CategoriasRoute
+export default CategoriesRoute
 
 export const pageQuery = graphql`
   query CategoryesQuery {
@@ -70,6 +70,7 @@ export const pageQuery = graphql`
           github
           rss
           vk
+          linkedin
         }
       }
     }

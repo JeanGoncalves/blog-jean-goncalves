@@ -12,6 +12,7 @@ class Links extends React.Component {
       vk: author.vk,
       rss: author.rss,
       email: author.email,
+      linkedin: author.linkedin,
     }
 
     return (
@@ -37,6 +38,17 @@ class Links extends React.Component {
                 rel="noopener noreferrer"
               >
                 <i className="icon-github" />
+              </a>
+            </li>
+          ) : ''}
+
+          {links.linkedin ? (
+            <li className="links__list-item">
+              <a href={`https://www.linkedin.com/in/${links.linkedin}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="icon-linkedin" />
               </a>
             </li>
           ) : ''}

@@ -38,6 +38,7 @@ module.exports = {
       github: 'JeanGoncalves',
       rss: '',
       vk: '',
+      linkedin: 'JeanGoncalves',
     },
   },
   plugins: [
