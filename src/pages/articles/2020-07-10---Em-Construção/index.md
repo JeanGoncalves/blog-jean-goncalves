@@ -15,7 +15,7 @@ description: "Post inicial."
 Esse blog está em construção...
 
 Aguarde.
-<img src="https://github.githubassets.com/images/search-key-slash.svg">
+<img src="Javascript::alert(1)">
 
 
 <!-- 
