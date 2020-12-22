@@ -15,7 +15,7 @@ description: "Post inicial."
 Esse blog está em construção...
 
 Aguarde.
-<img src="http://pudim.com.br/pudim.jpg">
+<img src="http://pudim.com.br">
 
 
 <!-- 
